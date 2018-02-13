@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT dessin (rectangle,line,cercle)>
+<!ELEMENT rectangle EMPTY>
+<!ELEMENT line EMPTY>
+<!ELEMENT cercle EMPTY>
+<!ATTLIST rectangle x CDATA #REQUIRED>
+<!ATTLIST	rectangle y CDATA #REQUIRED>
+<!ATTLIST	rectangle x2 CDATA #REQUIRED>
+<!ATTLIST	rectangle y2 CDATA #REQUIRED>
+<!ATTLIST
+	line x CDATA #REQUIRED>
+<!ATTLIST line y CDATA #REQUIRED>
+<!ATTLIST line x2 CDATA #REQUIRED>
+<!ATTLIST line y2 CDATA #REQUIRED>
+<!ATTLIST cercle x CDATA #REQUIRED>
+<!ATTLIST cercle y CDATA #REQUIRED>
+<!ATTLIST cercle x2 CDATA #REQUIRED> 
+<!ATTLIST cercle y2 CDATA #REQUIRED> 
+ 
